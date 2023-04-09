@@ -1,0 +1,48 @@
+.review-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #dbcbdb;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: #ffff;
+    box-shadow: 5px 5px 5px #dbcbdb;
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.item img{
+    height: 90px;
+    width: 90px;
+}
+.item-info{
+    padding: 0 10px;
+}
+.item-info h3{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.item-info p{
+    margin: 0;
+    padding-bottom: 10px;
+    color: rgb(82, 19, 19);
+}
+.dlt-btn{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: rgb(212, 74, 74);
+    border: none;
+
+}
+.dlt-btn:hover {
+    color: #165553;
+    background-color:#b6cfce ;
+}
+.dlt-icon{
+    width: 27px;
+    height: 25px;
+}

@@ -1,0 +1,27 @@
+.cart-summary{
+    margin-top:70px;
+    background-color: #b2f7f4;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    color: rgb(15, 17, 17);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px;
+}
+.cart-summary h4{
+    text-align: center;
+    font-weight: bold;
+}
+.btn-clear{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #e4aee2;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding:15px 15px;
+}
+.btn-clear:hover {
+    background-color: #457573;
+}
